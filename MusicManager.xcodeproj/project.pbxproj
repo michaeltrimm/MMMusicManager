@@ -19,7 +19,93 @@
 		5A9A692B161BB50600617A04 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A6929161BB50500617A04 /* MainStoryboard_iPhone.storyboard */; };
 		5A9A692E161BB50600617A04 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A692C161BB50600617A04 /* MainStoryboard_iPad.storyboard */; };
 		5A9A6931161BB50600617A04 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6930161BB50600617A04 /* MMViewController.m */; };
+		5A9A6939161BB59400617A04 /* MMMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6938161BB59400617A04 /* MMMusicManager.m */; };
+		5A9A693B161BBB4600617A04 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A693A161BBB4600617A04 /* StoreKit.framework */; };
+		5A9A693D161BBB4F00617A04 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A693C161BBB4F00617A04 /* AVFoundation.framework */; };
+		5A9A693F161BBB5A00617A04 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A693E161BBB5A00617A04 /* AudioUnit.framework */; };
+		5A9A6941161BBB5D00617A04 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A6940161BBB5D00617A04 /* AudioToolbox.framework */; };
+		5A9A6943161BBB6E00617A04 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A6942161BBB6E00617A04 /* SystemConfiguration.framework */; };
+		5A9A6945161BBB7900617A04 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A6944161BBB7900617A04 /* OpenAL.framework */; };
+		5A9A6947161BBB8000617A04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A6946161BBB8000617A04 /* QuartzCore.framework */; };
+		5A9A6949161BBB8400617A04 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A6948161BBB8400617A04 /* Security.framework */; };
+		5A9A6961161BBC7E00617A04 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A694D161BBC7E00617A04 /* NSData+Base64.m */; };
+		5A9A6962161BBC7E00617A04 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A694F161BBC7E00617A04 /* SFHFKeychainUtils.m */; };
+		5A9A6963161BBC7E00617A04 /* MKSKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6951161BBC7E00617A04 /* MKSKProduct.m */; };
+		5A9A6964161BBC7E00617A04 /* MKSKSubscriptionProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6953161BBC7E00617A04 /* MKSKSubscriptionProduct.m */; };
+		5A9A6965161BBC7E00617A04 /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A6955161BBC7E00617A04 /* MKStoreKitConfigs.plist */; };
+		5A9A6966161BBC7E00617A04 /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6957161BBC7E00617A04 /* MKStoreManager.m */; };
+		5A9A696D161BBC7E00617A04 /* VerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6960161BBC7E00617A04 /* VerificationController.m */; };
+		5A9A6970161BBD3400617A04 /* MMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A696F161BBD3400617A04 /* MMNetworkManager.m */; };
+		5A9A69DB161BBD5200617A04 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A6972161BBD5200617A04 /* .gitignore */; };
+		5A9A69DC161BBD5200617A04 /* client.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A6974161BBD5200617A04 /* client.p12 */; };
+		5A9A69DD161BBD5200617A04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A697A161BBD5200617A04 /* AppDelegate.m */; };
+		5A9A69DE161BBD5200617A04 /* AuthTestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A697C161BBD5200617A04 /* AuthTestEngine.m */; };
+		5A9A69DF161BBD5200617A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A697D161BBD5200617A04 /* InfoPlist.strings */; };
+		5A9A69E0161BBD5200617A04 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A697F161BBD5200617A04 /* MainStoryboard.storyboard */; };
+		5A9A69E1161BBD5200617A04 /* ExampleDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6982161BBD5200617A04 /* ExampleDownloader.m */; };
+		5A9A69E2161BBD5200617A04 /* ExamplePost.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6984161BBD5200617A04 /* ExamplePost.m */; };
+		5A9A69E3161BBD5200617A04 /* ExampleUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6986161BBD5200617A04 /* ExampleUploader.m */; };
+		5A9A69E4161BBD5200617A04 /* FlickrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6988161BBD5200617A04 /* FlickrCell.m */; };
+		5A9A69E5161BBD5200617A04 /* FlickrEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A698A161BBD5200617A04 /* FlickrEngine.m */; };
+		5A9A69E6161BBD5200617A04 /* FlickrTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A698C161BBD5200617A04 /* FlickrTableViewController.m */; };
+		5A9A69E7161BBD5200617A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A698D161BBD5200617A04 /* main.m */; };
+		5A9A69E8161BBD5200617A04 /* MKNetworkKit-iOS-Demo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A698E161BBD5200617A04 /* MKNetworkKit-iOS-Demo-Info.plist */; };
+		5A9A69E9161BBD5200617A04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6991161BBD5200617A04 /* ViewController.m */; };
+		5A9A69EA161BBD5200617A04 /* YahooEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6993161BBD5200617A04 /* YahooEngine.m */; };
+		5A9A69EB161BBD5200617A04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6998161BBD5200617A04 /* AppDelegate.m */; };
+		5A9A69EC161BBD5200617A04 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A6999161BBD5200617A04 /* Credits.rtf */; };
+		5A9A69ED161BBD5200617A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A699B161BBD5200617A04 /* InfoPlist.strings */; };
+		5A9A69EE161BBD5200617A04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A699D161BBD5200617A04 /* MainMenu.xib */; };
+		5A9A69EF161BBD5200617A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A699F161BBD5200617A04 /* main.m */; };
+		5A9A69F0161BBD5200617A04 /* MKNetworkKit-OSX-Demo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A69A0161BBD5200617A04 /* MKNetworkKit-OSX-Demo-Info.plist */; };
+		5A9A69F1161BBD5200617A04 /* NSAlert+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69A8161BBD5200617A04 /* NSAlert+MKNetworkKitAdditions.m */; };
+		5A9A69F2161BBD5200617A04 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69AA161BBD5200617A04 /* NSData+Base64.m */; };
+		5A9A69F3161BBD5200617A04 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69AC161BBD5200617A04 /* NSDate+RFC1123.m */; };
+		5A9A69F4161BBD5200617A04 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69AE161BBD5200617A04 /* NSDictionary+RequestEncoding.m */; };
+		5A9A69F5161BBD5200617A04 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69B0161BBD5200617A04 /* NSString+MKNetworkKitAdditions.m */; };
+		5A9A69F6161BBD5200617A04 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69B2161BBD5200617A04 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		5A9A69F7161BBD5200617A04 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69B4161BBD5200617A04 /* MKNetworkEngine.m */; };
+		5A9A69F8161BBD5200617A04 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69B7161BBD5200617A04 /* MKNetworkOperation.m */; };
+		5A9A69F9161BBD5200617A04 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A69BA161BBD5200617A04 /* Reachability.m */; };
+		5A9A69FA161BBD5200617A04 /* MKNetworkKit.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A69C7161BBD5200617A04 /* MKNetworkKit.xcworkspace */; };
+		5A9A69FB161BBD5200617A04 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A69C8161BBD5200617A04 /* README.mdown */; };
+		5A9A69FC161BBD5200617A04 /* SampleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A69C9161BBD5200617A04 /* SampleImage.jpg */; };
+		5A9A69FD161BBD5200617A04 /* basic_auth.php in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A69CB161BBD5200617A04 /* basic_auth.php */; };
+		5A9A69FE161BBD5200617A04 /* digest_auth.php in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A69CC161BBD5200617A04 /* digest_auth.php */; };
+		5A9A6A0F161BBF3700617A04 /* NSData+AESAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6A0E161BBF3700617A04 /* NSData+AESAdditions.m */; };
+		5A9A6A12161BC47800617A04 /* MMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A6A11161BC47800617A04 /* MMUser.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9A6A00161BBD5300617A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9A6975161BBD5200617A04 /* MKNetworkKit-iOS-Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AB74B0BD1467CC120088BF09;
+			remoteInfo = "MKNetworkKit-iOS-Demo";
+		};
+		5A9A6A03161BBD5300617A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9A69BE161BBD5200617A04 /* MKNetworkKit-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABB5C25C148B3AE00056D3E9;
+			remoteInfo = "MKNetworkKit-iOS";
+		};
+		5A9A6A06161BBD5300617A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9A69A2161BBD5200617A04 /* MKNetworkKit-OSX-Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA53C0C148F0D6A00809400;
+			remoteInfo = "MKNetworkKit-OSX-Demo";
+		};
+		5A9A6A09161BBD5300617A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9A69C4161BBD5200617A04 /* MKNetworkKit-OSX.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABB5C277148B3B010056D3E9;
+			remoteInfo = "MKNetworkKit-OSX";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5A9A690D161BB50500617A04 /* MusicManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +125,101 @@
 		5A9A692D161BB50600617A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5A9A692F161BB50600617A04 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
 		5A9A6930161BB50600617A04 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		5A9A6937161BB59400617A04 /* MMMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMusicManager.h; sourceTree = "<group>"; };
+		5A9A6938161BB59400617A04 /* MMMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMusicManager.m; sourceTree = "<group>"; };
+		5A9A693A161BBB4600617A04 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5A9A693C161BBB4F00617A04 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5A9A693E161BBB5A00617A04 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		5A9A6940161BBB5D00617A04 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5A9A6942161BBB6E00617A04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5A9A6944161BBB7900617A04 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		5A9A6946161BBB8000617A04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5A9A6948161BBB8400617A04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5A9A694C161BBC7E00617A04 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		5A9A694D161BBC7E00617A04 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		5A9A694E161BBC7E00617A04 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		5A9A694F161BBC7E00617A04 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		5A9A6950161BBC7E00617A04 /* MKSKProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKProduct.h; sourceTree = "<group>"; };
+		5A9A6951161BBC7E00617A04 /* MKSKProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKProduct.m; sourceTree = "<group>"; };
+		5A9A6952161BBC7E00617A04 /* MKSKSubscriptionProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKSubscriptionProduct.h; sourceTree = "<group>"; };
+		5A9A6953161BBC7E00617A04 /* MKSKSubscriptionProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKSubscriptionProduct.m; sourceTree = "<group>"; };
+		5A9A6954161BBC7E00617A04 /* MKStoreKitConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreKitConfigs.h; sourceTree = "<group>"; };
+		5A9A6955161BBC7E00617A04 /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
+		5A9A6956161BBC7E00617A04 /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
+		5A9A6957161BBC7E00617A04 /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
+		5A9A695F161BBC7E00617A04 /* VerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationController.h; sourceTree = "<group>"; };
+		5A9A6960161BBC7E00617A04 /* VerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationController.m; sourceTree = "<group>"; };
+		5A9A696E161BBD3400617A04 /* MMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNetworkManager.h; sourceTree = "<group>"; };
+		5A9A696F161BBD3400617A04 /* MMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNetworkManager.m; sourceTree = "<group>"; };
+		5A9A6972161BBD5200617A04 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5A9A6974161BBD5200617A04 /* client.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = client.p12; sourceTree = "<group>"; };
+		5A9A6975161BBD5200617A04 /* MKNetworkKit-iOS-Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MKNetworkKit-iOS-Demo.xcodeproj"; sourceTree = "<group>"; };
+		5A9A6979161BBD5200617A04 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A9A697A161BBD5200617A04 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A9A697B161BBD5200617A04 /* AuthTestEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthTestEngine.h; sourceTree = "<group>"; };
+		5A9A697C161BBD5200617A04 /* AuthTestEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthTestEngine.m; sourceTree = "<group>"; };
+		5A9A697E161BBD5200617A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A9A6980161BBD5200617A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5A9A6981161BBD5200617A04 /* ExampleDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleDownloader.h; sourceTree = "<group>"; };
+		5A9A6982161BBD5200617A04 /* ExampleDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleDownloader.m; sourceTree = "<group>"; };
+		5A9A6983161BBD5200617A04 /* ExamplePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplePost.h; sourceTree = "<group>"; };
+		5A9A6984161BBD5200617A04 /* ExamplePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplePost.m; sourceTree = "<group>"; };
+		5A9A6985161BBD5200617A04 /* ExampleUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleUploader.h; sourceTree = "<group>"; };
+		5A9A6986161BBD5200617A04 /* ExampleUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleUploader.m; sourceTree = "<group>"; };
+		5A9A6987161BBD5200617A04 /* FlickrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCell.h; sourceTree = "<group>"; };
+		5A9A6988161BBD5200617A04 /* FlickrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCell.m; sourceTree = "<group>"; };
+		5A9A6989161BBD5200617A04 /* FlickrEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrEngine.h; sourceTree = "<group>"; };
+		5A9A698A161BBD5200617A04 /* FlickrEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrEngine.m; sourceTree = "<group>"; };
+		5A9A698B161BBD5200617A04 /* FlickrTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrTableViewController.h; sourceTree = "<group>"; };
+		5A9A698C161BBD5200617A04 /* FlickrTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrTableViewController.m; sourceTree = "<group>"; };
+		5A9A698D161BBD5200617A04 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A9A698E161BBD5200617A04 /* MKNetworkKit-iOS-Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MKNetworkKit-iOS-Demo-Info.plist"; sourceTree = "<group>"; };
+		5A9A698F161BBD5200617A04 /* MKNetworkKit-iOS-Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKNetworkKit-iOS-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		5A9A6990161BBD5200617A04 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A9A6991161BBD5200617A04 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A9A6992161BBD5200617A04 /* YahooEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooEngine.h; sourceTree = "<group>"; };
+		5A9A6993161BBD5200617A04 /* YahooEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooEngine.m; sourceTree = "<group>"; };
+		5A9A6997161BBD5200617A04 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A9A6998161BBD5200617A04 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A9A699A161BBD5200617A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5A9A699C161BBD5200617A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A9A699E161BBD5200617A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5A9A699F161BBD5200617A04 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A9A69A0161BBD5200617A04 /* MKNetworkKit-OSX-Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MKNetworkKit-OSX-Demo-Info.plist"; sourceTree = "<group>"; };
+		5A9A69A1161BBD5200617A04 /* MKNetworkKit-OSX-Demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKNetworkKit-OSX-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		5A9A69A2161BBD5200617A04 /* MKNetworkKit-OSX-Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MKNetworkKit-OSX-Demo.xcodeproj"; sourceTree = "<group>"; };
+		5A9A69A7161BBD5200617A04 /* NSAlert+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		5A9A69A8161BBD5200617A04 /* NSAlert+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		5A9A69A9161BBD5200617A04 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		5A9A69AA161BBD5200617A04 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		5A9A69AB161BBD5200617A04 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		5A9A69AC161BBD5200617A04 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		5A9A69AD161BBD5200617A04 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		5A9A69AE161BBD5200617A04 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		5A9A69AF161BBD5200617A04 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		5A9A69B0161BBD5200617A04 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		5A9A69B1161BBD5200617A04 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		5A9A69B2161BBD5200617A04 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		5A9A69B3161BBD5200617A04 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		5A9A69B4161BBD5200617A04 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		5A9A69B5161BBD5200617A04 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		5A9A69B6161BBD5200617A04 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		5A9A69B7161BBD5200617A04 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		5A9A69B9161BBD5200617A04 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5A9A69BA161BBD5200617A04 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5A9A69BD161BBD5200617A04 /* MKNetworkKit-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKNetworkKit-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		5A9A69BE161BBD5200617A04 /* MKNetworkKit-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MKNetworkKit-iOS.xcodeproj"; sourceTree = "<group>"; };
+		5A9A69C3161BBD5200617A04 /* MKNetworkKit-OSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKNetworkKit-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		5A9A69C4161BBD5200617A04 /* MKNetworkKit-OSX.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MKNetworkKit-OSX.xcodeproj"; sourceTree = "<group>"; };
+		5A9A69C7161BBD5200617A04 /* MKNetworkKit.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = MKNetworkKit.xcworkspace; sourceTree = "<group>"; };
+		5A9A69C8161BBD5200617A04 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		5A9A69C9161BBD5200617A04 /* SampleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleImage.jpg; sourceTree = "<group>"; };
+		5A9A69CB161BBD5200617A04 /* basic_auth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = basic_auth.php; sourceTree = "<group>"; };
+		5A9A69CC161BBD5200617A04 /* digest_auth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = digest_auth.php; sourceTree = "<group>"; };
+		5A9A6A0D161BBF3700617A04 /* NSData+AESAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESAdditions.h"; sourceTree = "<group>"; };
+		5A9A6A0E161BBF3700617A04 /* NSData+AESAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESAdditions.m"; sourceTree = "<group>"; };
+		5A9A6A10161BC47800617A04 /* MMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUser.h; sourceTree = "<group>"; };
+		5A9A6A11161BC47800617A04 /* MMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +227,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9A6949161BBB8400617A04 /* Security.framework in Frameworks */,
+				5A9A6947161BBB8000617A04 /* QuartzCore.framework in Frameworks */,
+				5A9A6945161BBB7900617A04 /* OpenAL.framework in Frameworks */,
+				5A9A6943161BBB6E00617A04 /* SystemConfiguration.framework in Frameworks */,
+				5A9A6941161BBB5D00617A04 /* AudioToolbox.framework in Frameworks */,
+				5A9A693F161BBB5A00617A04 /* AudioUnit.framework in Frameworks */,
+				5A9A693D161BBB4F00617A04 /* AVFoundation.framework in Frameworks */,
+				5A9A693B161BBB4600617A04 /* StoreKit.framework in Frameworks */,
 				5A9A6912161BB50500617A04 /* UIKit.framework in Frameworks */,
 				5A9A6914161BB50500617A04 /* Foundation.framework in Frameworks */,
 				5A9A6916161BB50500617A04 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +264,14 @@
 		5A9A6910161BB50500617A04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A9A6948161BBB8400617A04 /* Security.framework */,
+				5A9A6946161BBB8000617A04 /* QuartzCore.framework */,
+				5A9A6944161BBB7900617A04 /* OpenAL.framework */,
+				5A9A6942161BBB6E00617A04 /* SystemConfiguration.framework */,
+				5A9A6940161BBB5D00617A04 /* AudioToolbox.framework */,
+				5A9A693E161BBB5A00617A04 /* AudioUnit.framework */,
+				5A9A693C161BBB4F00617A04 /* AVFoundation.framework */,
+				5A9A693A161BBB4600617A04 /* StoreKit.framework */,
 				5A9A6911161BB50500617A04 /* UIKit.framework */,
 				5A9A6913161BB50500617A04 /* Foundation.framework */,
 				5A9A6915161BB50500617A04 /* CoreGraphics.framework */,
@@ -85,6 +282,10 @@
 		5A9A6917161BB50500617A04 /* MusicManager */ = {
 			isa = PBXGroup;
 			children = (
+				5A9A6A0C161BBF2100617A04 /* Categories */,
+				5A9A6A0B161BBD7A00617A04 /* MMClasses */,
+				5A9A6971161BBD5200617A04 /* MKNetworkKit */,
+				5A9A694A161BBC7E00617A04 /* MKStoreKit */,
 				5A9A6920161BB50500617A04 /* MMAppDelegate.h */,
 				5A9A6921161BB50500617A04 /* MMAppDelegate.m */,
 				5A9A6929161BB50500617A04 /* MainStoryboard_iPhone.storyboard */,
@@ -108,6 +309,265 @@
 				5A9A6927161BB50500617A04 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9A694A161BBC7E00617A04 /* MKStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A694B161BBC7E00617A04 /* Externals */,
+				5A9A6950161BBC7E00617A04 /* MKSKProduct.h */,
+				5A9A6951161BBC7E00617A04 /* MKSKProduct.m */,
+				5A9A6952161BBC7E00617A04 /* MKSKSubscriptionProduct.h */,
+				5A9A6953161BBC7E00617A04 /* MKSKSubscriptionProduct.m */,
+				5A9A6954161BBC7E00617A04 /* MKStoreKitConfigs.h */,
+				5A9A6955161BBC7E00617A04 /* MKStoreKitConfigs.plist */,
+				5A9A6956161BBC7E00617A04 /* MKStoreManager.h */,
+				5A9A6957161BBC7E00617A04 /* MKStoreManager.m */,
+				5A9A695F161BBC7E00617A04 /* VerificationController.h */,
+				5A9A6960161BBC7E00617A04 /* VerificationController.m */,
+			);
+			path = MKStoreKit;
+			sourceTree = "<group>";
+		};
+		5A9A694B161BBC7E00617A04 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A694C161BBC7E00617A04 /* NSData+Base64.h */,
+				5A9A694D161BBC7E00617A04 /* NSData+Base64.m */,
+				5A9A694E161BBC7E00617A04 /* SFHFKeychainUtils.h */,
+				5A9A694F161BBC7E00617A04 /* SFHFKeychainUtils.m */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		5A9A6971161BBD5200617A04 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6972161BBD5200617A04 /* .gitignore */,
+				5A9A6973161BBD5200617A04 /* iOS-Demo */,
+				5A9A6994161BBD5200617A04 /* Mac-Demo */,
+				5A9A69A5161BBD5200617A04 /* MKNetworkKit */,
+				5A9A69BB161BBD5200617A04 /* MKNetworkKit-iOS */,
+				5A9A69C1161BBD5200617A04 /* MKNetworkKit-OSX */,
+				5A9A69C7161BBD5200617A04 /* MKNetworkKit.xcworkspace */,
+				5A9A69C8161BBD5200617A04 /* README.mdown */,
+				5A9A69C9161BBD5200617A04 /* SampleImage.jpg */,
+				5A9A69CA161BBD5200617A04 /* ServerTests */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		5A9A6973161BBD5200617A04 /* iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6974161BBD5200617A04 /* client.p12 */,
+				5A9A6975161BBD5200617A04 /* MKNetworkKit-iOS-Demo.xcodeproj */,
+				5A9A6978161BBD5200617A04 /* MKNetworkKitDemo */,
+			);
+			path = "iOS-Demo";
+			sourceTree = "<group>";
+		};
+		5A9A6976161BBD5200617A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6A01161BBD5300617A04 /* MKNetworkKit-iOS-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9A6978161BBD5200617A04 /* MKNetworkKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6979161BBD5200617A04 /* AppDelegate.h */,
+				5A9A697A161BBD5200617A04 /* AppDelegate.m */,
+				5A9A697B161BBD5200617A04 /* AuthTestEngine.h */,
+				5A9A697C161BBD5200617A04 /* AuthTestEngine.m */,
+				5A9A697D161BBD5200617A04 /* InfoPlist.strings */,
+				5A9A697F161BBD5200617A04 /* MainStoryboard.storyboard */,
+				5A9A6981161BBD5200617A04 /* ExampleDownloader.h */,
+				5A9A6982161BBD5200617A04 /* ExampleDownloader.m */,
+				5A9A6983161BBD5200617A04 /* ExamplePost.h */,
+				5A9A6984161BBD5200617A04 /* ExamplePost.m */,
+				5A9A6985161BBD5200617A04 /* ExampleUploader.h */,
+				5A9A6986161BBD5200617A04 /* ExampleUploader.m */,
+				5A9A6987161BBD5200617A04 /* FlickrCell.h */,
+				5A9A6988161BBD5200617A04 /* FlickrCell.m */,
+				5A9A6989161BBD5200617A04 /* FlickrEngine.h */,
+				5A9A698A161BBD5200617A04 /* FlickrEngine.m */,
+				5A9A698B161BBD5200617A04 /* FlickrTableViewController.h */,
+				5A9A698C161BBD5200617A04 /* FlickrTableViewController.m */,
+				5A9A698D161BBD5200617A04 /* main.m */,
+				5A9A698E161BBD5200617A04 /* MKNetworkKit-iOS-Demo-Info.plist */,
+				5A9A698F161BBD5200617A04 /* MKNetworkKit-iOS-Demo-Prefix.pch */,
+				5A9A6990161BBD5200617A04 /* ViewController.h */,
+				5A9A6991161BBD5200617A04 /* ViewController.m */,
+				5A9A6992161BBD5200617A04 /* YahooEngine.h */,
+				5A9A6993161BBD5200617A04 /* YahooEngine.m */,
+			);
+			path = MKNetworkKitDemo;
+			sourceTree = "<group>";
+		};
+		5A9A6994161BBD5200617A04 /* Mac-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6995161BBD5200617A04 /* MKNetworkKit-OSX-Demo */,
+			);
+			path = "Mac-Demo";
+			sourceTree = "<group>";
+		};
+		5A9A6995161BBD5200617A04 /* MKNetworkKit-OSX-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6996161BBD5200617A04 /* MKNetworkKit-OSX-Demo */,
+				5A9A69A2161BBD5200617A04 /* MKNetworkKit-OSX-Demo.xcodeproj */,
+			);
+			path = "MKNetworkKit-OSX-Demo";
+			sourceTree = "<group>";
+		};
+		5A9A6996161BBD5200617A04 /* MKNetworkKit-OSX-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6997161BBD5200617A04 /* AppDelegate.h */,
+				5A9A6998161BBD5200617A04 /* AppDelegate.m */,
+				5A9A6999161BBD5200617A04 /* Credits.rtf */,
+				5A9A699B161BBD5200617A04 /* InfoPlist.strings */,
+				5A9A699D161BBD5200617A04 /* MainMenu.xib */,
+				5A9A699F161BBD5200617A04 /* main.m */,
+				5A9A69A0161BBD5200617A04 /* MKNetworkKit-OSX-Demo-Info.plist */,
+				5A9A69A1161BBD5200617A04 /* MKNetworkKit-OSX-Demo-Prefix.pch */,
+			);
+			path = "MKNetworkKit-OSX-Demo";
+			sourceTree = "<group>";
+		};
+		5A9A69A3161BBD5200617A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6A07161BBD5300617A04 /* MKNetworkKit-OSX-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9A69A5161BBD5200617A04 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69A6161BBD5200617A04 /* Categories */,
+				5A9A69B3161BBD5200617A04 /* MKNetworkEngine.h */,
+				5A9A69B4161BBD5200617A04 /* MKNetworkEngine.m */,
+				5A9A69B5161BBD5200617A04 /* MKNetworkKit.h */,
+				5A9A69B6161BBD5200617A04 /* MKNetworkOperation.h */,
+				5A9A69B7161BBD5200617A04 /* MKNetworkOperation.m */,
+				5A9A69B8161BBD5200617A04 /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		5A9A69A6161BBD5200617A04 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69A7161BBD5200617A04 /* NSAlert+MKNetworkKitAdditions.h */,
+				5A9A69A8161BBD5200617A04 /* NSAlert+MKNetworkKitAdditions.m */,
+				5A9A69A9161BBD5200617A04 /* NSData+Base64.h */,
+				5A9A69AA161BBD5200617A04 /* NSData+Base64.m */,
+				5A9A69AB161BBD5200617A04 /* NSDate+RFC1123.h */,
+				5A9A69AC161BBD5200617A04 /* NSDate+RFC1123.m */,
+				5A9A69AD161BBD5200617A04 /* NSDictionary+RequestEncoding.h */,
+				5A9A69AE161BBD5200617A04 /* NSDictionary+RequestEncoding.m */,
+				5A9A69AF161BBD5200617A04 /* NSString+MKNetworkKitAdditions.h */,
+				5A9A69B0161BBD5200617A04 /* NSString+MKNetworkKitAdditions.m */,
+				5A9A69B1161BBD5200617A04 /* UIAlertView+MKNetworkKitAdditions.h */,
+				5A9A69B2161BBD5200617A04 /* UIAlertView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5A9A69B8161BBD5200617A04 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69B9161BBD5200617A04 /* Reachability.h */,
+				5A9A69BA161BBD5200617A04 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5A9A69BB161BBD5200617A04 /* MKNetworkKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69BC161BBD5200617A04 /* MKNetworkKit-iOS */,
+				5A9A69BE161BBD5200617A04 /* MKNetworkKit-iOS.xcodeproj */,
+			);
+			path = "MKNetworkKit-iOS";
+			sourceTree = "<group>";
+		};
+		5A9A69BC161BBD5200617A04 /* MKNetworkKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69BD161BBD5200617A04 /* MKNetworkKit-iOS-Prefix.pch */,
+			);
+			path = "MKNetworkKit-iOS";
+			sourceTree = "<group>";
+		};
+		5A9A69BF161BBD5200617A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6A04161BBD5300617A04 /* libMKNetworkKit-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9A69C1161BBD5200617A04 /* MKNetworkKit-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69C2161BBD5200617A04 /* MKNetworkKit-OSX */,
+				5A9A69C4161BBD5200617A04 /* MKNetworkKit-OSX.xcodeproj */,
+			);
+			path = "MKNetworkKit-OSX";
+			sourceTree = "<group>";
+		};
+		5A9A69C2161BBD5200617A04 /* MKNetworkKit-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69C3161BBD5200617A04 /* MKNetworkKit-OSX-Prefix.pch */,
+			);
+			path = "MKNetworkKit-OSX";
+			sourceTree = "<group>";
+		};
+		5A9A69C5161BBD5200617A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6A0A161BBD5300617A04 /* libMKNetworkKit-OSX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9A69CA161BBD5200617A04 /* ServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A69CB161BBD5200617A04 /* basic_auth.php */,
+				5A9A69CC161BBD5200617A04 /* digest_auth.php */,
+			);
+			path = ServerTests;
+			sourceTree = "<group>";
+		};
+		5A9A6A0B161BBD7A00617A04 /* MMClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6A10161BC47800617A04 /* MMUser.h */,
+				5A9A6A11161BC47800617A04 /* MMUser.m */,
+				5A9A696E161BBD3400617A04 /* MMNetworkManager.h */,
+				5A9A696F161BBD3400617A04 /* MMNetworkManager.m */,
+				5A9A6937161BB59400617A04 /* MMMusicManager.h */,
+				5A9A6938161BB59400617A04 /* MMMusicManager.m */,
+			);
+			name = MMClasses;
+			sourceTree = "<group>";
+		};
+		5A9A6A0C161BBF2100617A04 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A6A0D161BBF3700617A04 /* NSData+AESAdditions.h */,
+				5A9A6A0E161BBF3700617A04 /* NSData+AESAdditions.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,12 +610,61 @@
 			mainGroup = 5A9A6902161BB50500617A04;
 			productRefGroup = 5A9A690E161BB50500617A04 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5A9A6976161BBD5200617A04 /* Products */;
+					ProjectRef = 5A9A6975161BBD5200617A04 /* MKNetworkKit-iOS-Demo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5A9A69BF161BBD5200617A04 /* Products */;
+					ProjectRef = 5A9A69BE161BBD5200617A04 /* MKNetworkKit-iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = 5A9A69A3161BBD5200617A04 /* Products */;
+					ProjectRef = 5A9A69A2161BBD5200617A04 /* MKNetworkKit-OSX-Demo.xcodeproj */;
+				},
+				{
+					ProductGroup = 5A9A69C5161BBD5200617A04 /* Products */;
+					ProjectRef = 5A9A69C4161BBD5200617A04 /* MKNetworkKit-OSX.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5A9A690C161BB50500617A04 /* MusicManager */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5A9A6A01161BBD5300617A04 /* MKNetworkKit-iOS-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "MKNetworkKit-iOS-Demo.app";
+			remoteRef = 5A9A6A00161BBD5300617A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A9A6A04161BBD5300617A04 /* libMKNetworkKit-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMKNetworkKit-iOS.a";
+			remoteRef = 5A9A6A03161BBD5300617A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A9A6A07161BBD5300617A04 /* MKNetworkKit-OSX-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "MKNetworkKit-OSX-Demo.app";
+			remoteRef = 5A9A6A06161BBD5300617A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5A9A6A0A161BBD5300617A04 /* libMKNetworkKit-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMKNetworkKit-OSX.a";
+			remoteRef = 5A9A6A09161BBD5300617A04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5A9A690B161BB50500617A04 /* Resources */ = {
@@ -168,6 +677,21 @@
 				5A9A6928161BB50500617A04 /* Default-568h@2x.png in Resources */,
 				5A9A692B161BB50600617A04 /* MainStoryboard_iPhone.storyboard in Resources */,
 				5A9A692E161BB50600617A04 /* MainStoryboard_iPad.storyboard in Resources */,
+				5A9A6965161BBC7E00617A04 /* MKStoreKitConfigs.plist in Resources */,
+				5A9A69DB161BBD5200617A04 /* .gitignore in Resources */,
+				5A9A69DC161BBD5200617A04 /* client.p12 in Resources */,
+				5A9A69DF161BBD5200617A04 /* InfoPlist.strings in Resources */,
+				5A9A69E0161BBD5200617A04 /* MainStoryboard.storyboard in Resources */,
+				5A9A69E8161BBD5200617A04 /* MKNetworkKit-iOS-Demo-Info.plist in Resources */,
+				5A9A69EC161BBD5200617A04 /* Credits.rtf in Resources */,
+				5A9A69ED161BBD5200617A04 /* InfoPlist.strings in Resources */,
+				5A9A69EE161BBD5200617A04 /* MainMenu.xib in Resources */,
+				5A9A69F0161BBD5200617A04 /* MKNetworkKit-OSX-Demo-Info.plist in Resources */,
+				5A9A69FA161BBD5200617A04 /* MKNetworkKit.xcworkspace in Resources */,
+				5A9A69FB161BBD5200617A04 /* README.mdown in Resources */,
+				5A9A69FC161BBD5200617A04 /* SampleImage.jpg in Resources */,
+				5A9A69FD161BBD5200617A04 /* basic_auth.php in Resources */,
+				5A9A69FE161BBD5200617A04 /* digest_auth.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +705,38 @@
 				5A9A691E161BB50500617A04 /* main.m in Sources */,
 				5A9A6922161BB50500617A04 /* MMAppDelegate.m in Sources */,
 				5A9A6931161BB50600617A04 /* MMViewController.m in Sources */,
+				5A9A6939161BB59400617A04 /* MMMusicManager.m in Sources */,
+				5A9A6961161BBC7E00617A04 /* NSData+Base64.m in Sources */,
+				5A9A6962161BBC7E00617A04 /* SFHFKeychainUtils.m in Sources */,
+				5A9A6963161BBC7E00617A04 /* MKSKProduct.m in Sources */,
+				5A9A6964161BBC7E00617A04 /* MKSKSubscriptionProduct.m in Sources */,
+				5A9A6966161BBC7E00617A04 /* MKStoreManager.m in Sources */,
+				5A9A696D161BBC7E00617A04 /* VerificationController.m in Sources */,
+				5A9A6970161BBD3400617A04 /* MMNetworkManager.m in Sources */,
+				5A9A69DD161BBD5200617A04 /* AppDelegate.m in Sources */,
+				5A9A69DE161BBD5200617A04 /* AuthTestEngine.m in Sources */,
+				5A9A69E1161BBD5200617A04 /* ExampleDownloader.m in Sources */,
+				5A9A69E2161BBD5200617A04 /* ExamplePost.m in Sources */,
+				5A9A69E3161BBD5200617A04 /* ExampleUploader.m in Sources */,
+				5A9A69E4161BBD5200617A04 /* FlickrCell.m in Sources */,
+				5A9A69E5161BBD5200617A04 /* FlickrEngine.m in Sources */,
+				5A9A69E6161BBD5200617A04 /* FlickrTableViewController.m in Sources */,
+				5A9A69E7161BBD5200617A04 /* main.m in Sources */,
+				5A9A69E9161BBD5200617A04 /* ViewController.m in Sources */,
+				5A9A69EA161BBD5200617A04 /* YahooEngine.m in Sources */,
+				5A9A69EB161BBD5200617A04 /* AppDelegate.m in Sources */,
+				5A9A69EF161BBD5200617A04 /* main.m in Sources */,
+				5A9A69F1161BBD5200617A04 /* NSAlert+MKNetworkKitAdditions.m in Sources */,
+				5A9A69F2161BBD5200617A04 /* NSData+Base64.m in Sources */,
+				5A9A69F3161BBD5200617A04 /* NSDate+RFC1123.m in Sources */,
+				5A9A69F4161BBD5200617A04 /* NSDictionary+RequestEncoding.m in Sources */,
+				5A9A69F5161BBD5200617A04 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				5A9A69F6161BBD5200617A04 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				5A9A69F7161BBD5200617A04 /* MKNetworkEngine.m in Sources */,
+				5A9A69F8161BBD5200617A04 /* MKNetworkOperation.m in Sources */,
+				5A9A69F9161BBD5200617A04 /* Reachability.m in Sources */,
+				5A9A6A0F161BBF3700617A04 /* NSData+AESAdditions.m in Sources */,
+				5A9A6A12161BC47800617A04 /* MMUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +765,46 @@
 				5A9A692D161BB50600617A04 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5A9A697D161BBD5200617A04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9A697E161BBD5200617A04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A9A697F161BBD5200617A04 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9A6980161BBD5200617A04 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5A9A6999161BBD5200617A04 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9A699A161BBD5200617A04 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5A9A699B161BBD5200617A04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9A699C161BBD5200617A04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A9A699D161BBD5200617A04 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9A699E161BBD5200617A04 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
