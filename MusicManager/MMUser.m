@@ -41,4 +41,19 @@
     });
     return _sharedObject;
 }
+
+-(BOOL)authenticated {
+    if( emailAddress == nil || [emailAddress isEqualToString:@""]) {
+        return YES;
+    } else {
+        return NO;
+    }
+}
+
+-(NSString*)getEmailAddress {
+    return emailAddress;
+}
+-(NSString*)getBsonId {
+    return bson_id;
+}
 @end

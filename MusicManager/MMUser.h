@@ -13,4 +13,7 @@
 @property NSString *bson_id;
 -(void)syncUserFile:(NSString *)email andBSONId:(NSString*)bson;
 + (id)sharedInstance;
+-(BOOL)authenticated;
+-(NSString*)getEmailAddress;
+-(NSString*)getBsonId;
 @end

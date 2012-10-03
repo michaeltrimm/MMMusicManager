@@ -8,6 +8,7 @@
 
 #import "MMNetworkManager.h"
 #import "MKNetworkKit.h"
+#import "VerificationController.h"
 #import "MMUser.h"
 #import "NSData+AESAdditions.h"
 
@@ -57,6 +58,7 @@
         } onError:^(NSError *error) {
             // Operation Failed With An Error
             DLog(@"%@", error);
+#warning Implement the error handling for if the network connection is either dropped or unavailable
         }];
         [self enqueueOperation:operation];
         
@@ -87,6 +89,7 @@
         } onError:^(NSError *error) {
             // Operation Failed With An Error
             DLog(@"%@", error);
+#warning Implement the error handling for if the network connection is either dropped or unavailable
         }];
         [self enqueueOperation:operation];
         
@@ -96,7 +99,41 @@
     }
 }
 
-
+-(void)recordPurchaseWithTransaction:(SKPaymentTransaction*)originalTransaction andSongId:(NSString*)song_id {
+    if([[MMUser sharedInstance] authenticated]) {
+        NSError *jsonParsingError = nil;
+        NSJSONSerialization *transactionJSON = [NSJSONSerialization JSONObjectWithData:originalTransaction.transactionReceipt options:0 error:&jsonParsingError];
+        if([[VerificationController sharedInstance] verifyPurchase:originalTransaction]) {
+            NSArray *postKeys = [NSArray arrayWithObjects:@"method", @"user_id", @"transactionReceipt", nil];
+            NSArray *postValues = [NSArray arrayWithObjects:@"purchase", [[MMUser sharedInstance] getBsonId],transactionJSON , nil];
+            NSMutableDictionary *postData = [NSDictionary dictionaryWithObjects:postValues forKeys:postKeys];
+            MKNetworkOperation *operation = [self operationWithPath:MMServerAddress params:postData httpMethod:@"POST"];
+            [operation onCompletion:^(MKNetworkOperation *operation) {
+                // Operation Completed Successfully
+                NSString *response = [operation responseString];
+                if(![response isEqualToString:@"0"]) {
+                    // Succeeded
+#warning Implement adding the song_id (records on the remote database) to the Songs.plist file
+                } else {
+                    // Network transmission succeeded but authentication failed
+#warning Implement the error handling for authentication failure
+                }
+                DLog(@"%@", operation);
+            } onError:^(NSError *error) {
+                // Operation Failed With An Error
+                DLog(@"%@", error);
+#warning Implement the error handling for if the network connection is either dropped or unavailable
+            }];
+            [self enqueueOperation:operation];
+        } else {
+#warning Handle invalid receipt - thus the purchase was probably made on a jailbroken device
+        }
+    } else {
+#warning Handle error message for not being authenticated
+        // Not authenticated
+        // FYI - This should NEVER happen
+    }
+}
 
 
 
